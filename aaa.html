@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع التحميل الأخضر</title>
+    <link rel="stylesheet" href="bbb.css">
+</head>
+<body>
+    <header>
+        <div class="logo">تحميل أخضر</div>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">تطبيقات</a></li>
+                <li><a href="#">ألعاب</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="ابحث عن التطبيقات والألعاب...">
+            <button onclick="search()">بحث</button>
+        </section>
+
+        <section class="apps-list">
+            <div class="app-card">
+                <h3>تطبيق 1</h3>
+                <p>وصف قصير للتطبيق 1</p>
+                <button onclick="download('تطبيق 1')">تحميل</button>
+            </div>
+            <div class="app-card">
+                <h3>تطبيق 2</h3>
+                <p>وصف قصير للتطبيق 2</p>
+                <button onclick="download('تطبيق 2')">تحميل</button>
+            </div>
+            <div class="app-card">
+                <h3>لعبة 1</h3>
+                <p>وصف قصير للعبة 1</p>
+                <button onclick="download('لعبة 1')">تحميل</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 موقع التحميل الأخضر. كل الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="ccc.js"></script>
+</body>
+</html>
